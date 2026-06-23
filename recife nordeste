@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero - Recife</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(rgba(0, 51, 102, 0.85), rgba(0, 51, 102, 0.85)),
+                        url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Recife_Panorama.jpg/1200px-Recife_Panorama.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 3rem 1.5rem;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            margin-bottom: 0.8rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 1000px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: #003366;
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid #e0e6ed;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+            font-size: 1.05rem;
+        }
+
+        /* Tags semânticas inline usadas no texto */
+        strong {
+            color: #003366;
+        }
+
+        em {
+            font-style: italic;
+            color: #2c5c97;
+        }
+
+        mark {
+            background-color: #fff3cd;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* Imagens */
+        .imagem-container {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .imagem-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        .legenda {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.6rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            text-align: center;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Marco Zero - Recife</h1>
+        <p>O ponto de partida e o coração histórico da capital pernambucana</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section>
+            <h2>O que é o Marco Zero?</h2>
+            <p>
+                Localizado no <strong>Bairro do Recife</strong>, região mais antiga da cidade, o <em>Marco Zero</em> é muito mais do que um ponto geográfico: ele representa o início das estradas que partem de Recife para todas as outras regiões do estado. Inaugurado em 1938, ele marca o quilômetro zero de todas as rodovias de Pernambuco.
+            </p>
+            <p>
+                O espaço é um amplo praça com um grande símbolo no chão, criado pelo artista plástico <mark>Cícero Dias</mark>, que representa a estrela dos caminhos e a divisão das direções. Ao seu redor, encontram-se construções históricas, bares, restaurantes e uma vista privilegiada para o Rio Capibaribe.
+            </p>
+
+            <div class="imagem-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Marco_Zero_-_Recife-PE.jpg/800px-Marco_Zero_-_Recife-PE.jpg" alt="Praça do Marco Zero em Recife">
+                <p class="legenda">Vista da Praça do Marco Zero e seu símbolo no chão</p>
+            </div>
+
+            <h2>Um ponto de encontro e cultura</h2>
+            <p>
+                O Marco Zero é palco de diversas manifestações culturais, feiras de artesanato e apresentações artísticas ao longo do ano. É também o ponto de partida para passeios de barco pelos rios e canais que cortam a cidade, conhecida como a <strong>“Veneza Brasileira”</strong>.
+            </p>
+            <p>
+                Próximo ao local, é possível visitar o <em>Centro Cultural dos Correios</em>, o <em>Palácio do Campo das Princesas</em> e o famoso <mark>Paço do Frevo</mark>, espaço dedicado a um dos ritmos mais tradicionais de Pernambuco, reconhecido como Patrimônio Imaterial da Humanidade pela UNESCO.
+            </p>
+
+            <div class="imagem-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Recife_-_Marco_Zero_e_Rio_Capibaribe.jpg/800px-Recife_-_Marco_Zero_e_Rio_Capibaribe.jpg" alt="Vista do Rio Capibaribe a partir do Marco Zero">
+                <p class="legenda">Vista do Rio Capibaribe e do bairro a partir do Marco Zero</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Turismo em Recife | Conhecendo os encantos de Pernambuco</p>
+    </footer>
+
+</body>
+</html>
