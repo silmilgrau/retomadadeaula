@@ -1,0 +1,8 @@
+<!-- Adicione este trecho antes de fechar a tag </main> -->
+<section>
+    <h2>Conheça também outros pontos do Recife Antigo</h2>
+    <p>
+        O bairro histórico guarda muitos outros encantos! 
+        <a href="outros_pontos_recife.html" style="color: #003366; font-weight: bold;">Clique aqui para conhecer mais dois pontos turísticos imperdíveis</a>.
+    </p>
+</section>
