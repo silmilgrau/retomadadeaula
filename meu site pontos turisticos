@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos da Europa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1495567720986-ce122b66924b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .grid-lugares {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-conteudo {
+            padding: 1.2rem;
+        }
+
+        .card h3 {
+            color: #2c3e50;
+            margin-bottom: 0.6rem;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .saiba-mais {
+            display: inline-block;
+            background-color: #2980b9;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .saiba-mais:hover {
+            background-color: #1c6691;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Descubra os Melhores Lugares da Europa</h1>
+        <p>História, cultura e paisagens incríveis esperam por você</p>
+    </header>
+
+    <main class="container">
+        <section class="grid-lugares">
+            <!-- Paris -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Torre Eiffel - Paris">
+                <div class="card-conteudo">
+                    <h3>Paris, França</h3>
+                    <p>A cidade luz abriga a Torre Eiffel, o Museu do Louvre e uma gastronomia mundialmente famosa. Perfeita para casais e amantes de arte.</p>
+                    <a href="#" class="saiba-mais">Ver detalhes</a>
+                </div>
+            </div>
+
+            <!-- Roma -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Coliseu - Roma">
+                <div class="card-conteudo">
+                    <h3>Roma, Itália</h3>
+                    <p>Berço da civilização romana, com o Coliseu, o Vaticano e a Fontana di Trevi. Combina história milenar com comidas deliciosas.</p>
+                    <a href="#" class="saiba-mais">Ver detalhes</a>
+                </div>
+            </div>
+
+            <!-- Barcelona -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sagrada Família - Barcelona">
+                <div class="card-conteudo">
+                    <h3>Barcelona, Espanha</h3>
+                    <p>Arquitetura única de Gaudí, praias, bairros vibrantes e a famosa Sagrada Família. Mistura modernismo e tradição catalã.</p>
+                    <a href="#" class="saiba-mais">Ver detalhes</a>
+                </div>
+            </div>
+
+            <!-- Amsterdã -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1534351590666-15e3accbf201?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Canais - Amsterdã">
+                <div class="card-conteudo">
+                    <h3>Amsterdã, Holanda</h3>
+                    <p>Canais românticos, bicicletas, museus de arte e uma atmosfera acolhedora. Ideal para passeios tranquilos e cultura.</p>
+                    <a href="#" class="saiba-mais">Ver detalhes</a>
+                </div>
+            </div>
+
+            <!-- Lisboa -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1585208792817-f09009208b5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Lisboa, Portugal">
+                <div class="card-conteudo">
+                    <h3>Lisboa, Portugal</h3>
+                    <p>Colinas, bondes antigos, pastéis de nata e vistas incríveis sobre o rio Tejo. Uma das capitais mais ensolaradas da Europa.</p>
+                    <a href="#" class="saiba-mais">Ver detalhes</a>
+                </div>
+            </div>
+
+            <!-- Santorini -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1570077689499-8a4180069395?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Santorini, Grécia">
+                <div class="card-conteudo">
+                    <h3>Santorini, Grécia</h3>
+                    <p>Casas brancas com cúpulas azuis, pores do sol lendários e mar azul cristalino. Um dos destinos mais românticos do mundo.</p>
+                    <a href="#" class="saiba-mais">Ver detalhes</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lugares Turísticos da Europa | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
